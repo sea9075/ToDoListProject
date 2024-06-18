@@ -3,7 +3,7 @@
 <form method="post">
     <div class="border p-3 mt-4">
         <div class="row pb-2">
-            <h2 class="text-primary">新增代辦事項</h2>
+            <h2 class="text-primary">編輯代辦事項</h2>
             <hr />
         </div>
         <div class="mb-3 row p-1">
@@ -24,19 +24,19 @@
         </div>
         <div class="mb-3 row p-1">
             <label asp-for="StartTime" class="p-0"></label>
-            <input asp-for="StartTime" class="form-control" value="@Model.StartTime.ToString("yyyy-MM-dd HH:mm")" />
+            <input asp-for="StartTime" class="form-control" />
         </div>
         <div class="mb-3 row p-1">
             <label asp-for="EndTime" class="p-0"></label>
-            <input asp-for="EndTime" class="form-control" type="datetime-local"/>
+            <input asp-for="EndTime" class="form-control" type="datetime-local" />
         </div>
         <div class="mb-3 row p-1">
             <label asp-for="CreateTime" class="p-0"></label>
-            <input asp-for="CreateTime" class="form-control" readonly value="@Model.CreateTime.ToString("yyyy-MM-dd HH:mm")" />
+            <input asp-for="CreateTime" class="form-control" readonly />
         </div>
         <div class="row">
             <div class="col-6 col-md-3">
-                <button type="submit" class="btn btn-primary form-control">新增</button>
+                <button type="submit" class="btn btn-primary form-control">更新</button>
             </div>
             <div class="col-6 col-md-3">
                 <a asp-controller="TodoList" asp-action="Index" class="btn btn-secondary border form-control">

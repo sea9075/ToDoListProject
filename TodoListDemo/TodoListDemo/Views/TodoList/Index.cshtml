@@ -32,9 +32,19 @@
                     <td>@obj.Title</td>
                     <td>@obj.Description</td>
                     <td>@obj.Status</td>
-                    <td>@obj.StartTime</td>
-                    <td>@obj.EndTime</td>
-                    <td>@obj.CreateTime</td>
+                    <td>@obj.StartTime.ToString("yyyy-MM-dd HH:mm")</td>
+                    <td>@obj.EndTime?.ToString("yyyy-MM-dd HH:mm")</td>
+                    <td>@obj.CreateTime.ToString("yyyy-MM-dd HH:mm")</td>
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="TodoList" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-primary mx-2">
+                                <i class="bi bi-pencil-square"></i>編輯
+                            </a>
+                            <a asp-controller="TodoList" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-2">
+                                <i class="bi bi-trash-fill"></i>刪除
+                            </a>
+                        </div>
+                    </td>
                 </tr>
             }
         </tbody>

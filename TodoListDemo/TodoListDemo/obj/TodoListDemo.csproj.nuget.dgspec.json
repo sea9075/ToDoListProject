@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj": {}
+    "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj": {
+    "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj",
         "projectName": "TodoListDemo",
-        "projectPath": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

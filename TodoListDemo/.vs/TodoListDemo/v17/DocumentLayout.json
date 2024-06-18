@@ -1,83 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|c:\\users\\user\\desktop\\uch\\todolistproject\\todolistdemo\\todolistdemo\\controllers\\todolistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|solutionrelative:todolistdemo\\controllers\\todolistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|c:\\users\\user\\desktop\\uch\\todolistproject\\todolistdemo\\todolistdemo\\views\\todolist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|solutionrelative:todolistdemo\\views\\todolist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|c:\\users\\user\\desktop\\uch\\todolistproject\\todolistdemo\\todolistdemo\\views\\todolist\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|c:\\users\\user\\desktop\\todolistproject\\todolistdemo\\todolistdemo\\views\\todolist\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|solutionrelative:todolistdemo\\views\\todolist\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|c:\\users\\user\\desktop\\uch\\todolistproject\\todolistdemo\\todolistdemo\\models\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|c:\\users\\user\\desktop\\todolistproject\\todolistdemo\\todolistdemo\\views\\todolist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|solutionrelative:todolistdemo\\views\\todolist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|c:\\users\\user\\desktop\\todolistproject\\todolistdemo\\todolistdemo\\models\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DB7C9D6-95D5-4B0E-946F-C60EA19A1BAD}|TodoListDemo\\TodoListDemo.csproj|solutionrelative:todolistdemo\\models\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TodoList.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\Models\\TodoList.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\Models\\TodoList.cs",
               "RelativeDocumentMoniker": "TodoListDemo\\Models\\TodoList.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\Models\\TodoList.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\Models\\TodoList.cs",
               "RelativeToolTip": "TodoListDemo\\Models\\TodoList.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAIwBMAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T08:05:09.909Z",
+              "WhenOpened": "2024-06-18T12:43:04.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\Views\\TodoList\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\Views\\TodoList\\Create.cshtml",
               "RelativeDocumentMoniker": "TodoListDemo\\Views\\TodoList\\Create.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\Views\\TodoList\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\Views\\TodoList\\Create.cshtml",
               "RelativeToolTip": "TodoListDemo\\Views\\TodoList\\Create.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAA7AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-17T08:01:37.79Z",
+              "WhenOpened": "2024-06-18T12:42:39.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\Views\\TodoList\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\Views\\TodoList\\Index.cshtml",
               "RelativeDocumentMoniker": "TodoListDemo\\Views\\TodoList\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\Views\\TodoList\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\Views\\TodoList\\Index.cshtml",
               "RelativeToolTip": "TodoListDemo\\Views\\TodoList\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-17T07:41:42.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TodoListController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\Controllers\\TodoListController.cs",
-              "RelativeDocumentMoniker": "TodoListDemo\\Controllers\\TodoListController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\UCH\\TodoListProject\\TodoListDemo\\TodoListDemo\\Controllers\\TodoListController.cs",
-              "RelativeToolTip": "TodoListDemo\\Controllers\\TodoListController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAowBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T07:40:49.989Z",
+              "WhenOpened": "2024-06-18T12:42:34.48Z",
               "EditorCaption": ""
             }
           ]
