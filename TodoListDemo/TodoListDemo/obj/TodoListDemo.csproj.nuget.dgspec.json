@@ -4,14 +4,98 @@
     "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj": {
+    "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.DataAccess\\TodoListDemo.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj",
-        "projectName": "TodoListDemo",
-        "projectPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.DataAccess\\TodoListDemo.DataAccess.csproj",
+        "projectName": "TodoListDemo.DataAccess",
+        "projectPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.DataAccess\\TodoListDemo.DataAccess.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Models\\TodoListDemo.Models.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Models\\TodoListDemo.Models.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Utility\\TodoListDemo.Utility.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Utility\\TodoListDemo.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0-preview.5.24306.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0-preview.5.24306.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-preview.5.24306.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Models\\TodoListDemo.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Models\\TodoListDemo.Models.csproj",
+        "projectName": "TodoListDemo.Models",
+        "projectPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Models\\TodoListDemo.Models.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +129,132 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Utility\\TodoListDemo.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Utility\\TodoListDemo.Utility.csproj",
+        "projectName": "TodoListDemo.Utility",
+        "projectPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Utility\\TodoListDemo.Utility.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj",
+        "projectName": "TodoListDemo",
+        "projectPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\TodoListDemo.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.DataAccess\\TodoListDemo.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TodoListDemo\\TodoListDemo.DataAccess\\TodoListDemo.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -59,6 +269,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0-preview.5.24306.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [

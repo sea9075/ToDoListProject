@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\bin\Debug\net8.0\TodoListDemo.Models.deps.json
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\bin\Debug\net8.0\TodoListDemo.Models.dll
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\bin\Debug\net8.0\TodoListDemo.Models.pdb
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\obj\Debug\net8.0\TodoListDemo.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\obj\Debug\net8.0\TodoListDemo.Models.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\obj\Debug\net8.0\TodoListDemo.Models.AssemblyInfo.cs
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\obj\Debug\net8.0\TodoListDemo.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\obj\Debug\net8.0\TodoListDemo.Models.sourcelink.json
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\obj\Debug\net8.0\TodoListDemo.Models.dll
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\obj\Debug\net8.0\refint\TodoListDemo.Models.dll
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\obj\Debug\net8.0\TodoListDemo.Models.pdb
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Models\obj\Debug\net8.0\ref\TodoListDemo.Models.dll

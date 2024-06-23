@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\bin\Debug\net8.0\TodoListDemo.Utility.deps.json
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\bin\Debug\net8.0\TodoListDemo.Utility.dll
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\bin\Debug\net8.0\TodoListDemo.Utility.pdb
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\obj\Debug\net8.0\TodoListDemo.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\obj\Debug\net8.0\TodoListDemo.Utility.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\obj\Debug\net8.0\TodoListDemo.Utility.AssemblyInfo.cs
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\obj\Debug\net8.0\TodoListDemo.Utility.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\obj\Debug\net8.0\TodoListDemo.Utility.sourcelink.json
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\obj\Debug\net8.0\TodoListDemo.Utility.dll
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\obj\Debug\net8.0\refint\TodoListDemo.Utility.dll
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\obj\Debug\net8.0\TodoListDemo.Utility.pdb
+C:\Users\user\Desktop\TodoListProject\TodoListDemo\TodoListDemo.Utility\obj\Debug\net8.0\ref\TodoListDemo.Utility.dll
