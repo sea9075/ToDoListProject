@@ -1,4 +1,7 @@
 # TodoList Demo
+## 2024.06.23 更新
+* 實作 Repository Pattern
+* 實作 Unitofwork
 ## 設計簡單的 TodoList
 包含簡單的功能
 * 總攬
