@@ -1,0 +1,42 @@
+﻿@model List<Role>
+
+<div class="container">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary">
+                角色清單
+            </h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Role" asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> 新增角色
+            </a>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    角色排序
+                </th>
+                <th>
+                    角色名稱
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model.OrderBy(u => u.Id))
+            {
+                <tr>
+                    <td>
+                        @obj.DisplayNum
+                    </td>
+                    <td>
+                        @obj.RoleName
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

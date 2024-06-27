@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|c:\\users\\user\\desktop\\uch\\tasklistdemo\\tasklistdemo\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|solutionrelative:tasklistdemo\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|c:\\users\\user\\desktop\\uch\\tasklistdemo\\tasklistdemo\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|solutionrelative:tasklistdemo\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|c:\\users\\user\\desktop\\uch\\tasklistdemo\\tasklistdemo\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|solutionrelative:tasklistdemo\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|c:\\users\\user\\desktop\\uch\\tasklistdemo\\tasklistdemo\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|solutionrelative:tasklistdemo\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\TaskListDemo\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "TaskListDemo\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\TaskListDemo\\Models\\Role.cs",
+              "RelativeToolTip": "TaskListDemo\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T09:01:49.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\TaskListDemo\\Views\\Role\\Create.cshtml",
+              "RelativeDocumentMoniker": "TaskListDemo\\Views\\Role\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\TaskListDemo\\Views\\Role\\Create.cshtml",
+              "RelativeToolTip": "TaskListDemo\\Views\\Role\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T08:35:58.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\TaskListDemo\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "TaskListDemo\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\TaskListDemo\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "TaskListDemo\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA4wBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:35:08.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\TaskListDemo\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskListDemo\\Views\\Role\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\TaskListDemo\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "TaskListDemo\\Views\\Role\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T08:31:41.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
