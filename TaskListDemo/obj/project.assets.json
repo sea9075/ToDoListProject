@@ -4758,11 +4758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\TaskListDemo\\TaskListDemo.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\TaskListDemo.csproj",
       "projectName": "TaskListDemo",
-      "projectPath": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\TaskListDemo\\TaskListDemo.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\TaskListDemo.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\UCH\\TaskListDemo\\TaskListDemo\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

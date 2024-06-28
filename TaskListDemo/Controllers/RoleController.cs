@@ -46,11 +46,54 @@ namespace TaskListDemo.Controllers
             }
 
             Role? roleFromDb = _db.Roles.Find(id);
+
+            if (roleFromDb == null)
+            {
+                return NotFound();
+            }
+
+            return View(roleFromDb);
+        }
+        [HttpPost]
+        public IActionResult Edit(Role obj)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Roles.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            Role? roleFromDb = _db.Roles.Find(id);
+
             if (roleFromDb == null)
             {
                 return NotFound();
             }
             return View(roleFromDb);
+        }
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeletePOST(int? id)
+        {
+            Role? obj = _db.Roles.Find(id);
+
+            if (obj == null)
+            {
+                return NotFound();
+            }
+
+            _db.Roles.Remove(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }

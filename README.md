@@ -26,10 +26,8 @@
     - Status   
     - CreateTime   
     - CompleteTime   
-<<<<<<< HEAD
     - ConfirmTime   
    
-   
-=======
-    - ConfirmTime  
->>>>>>> 6d5e47e0751e29548bba2158f43216340576ca17
+## 20240628 更新   
+1. 新增 Role 角色資料庫   
+2. 新增 RoleContraller 的 CRUD   
