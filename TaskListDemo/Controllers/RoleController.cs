@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using TaskListDemo.Data;
 using TaskListDemo.Models;
 
@@ -23,6 +24,11 @@ namespace TaskListDemo.Controllers
         [HttpPost]
         public IActionResult Create(Role obj)
         {
+            if (obj.RoleName == obj.DisplayNum.ToString())
+            {
+                ModelState.AddModelError("name", "角色名稱不能跟顯示順序一致");
+            }
+            
             if (ModelState.IsValid)
             {
                 _db.Roles.Add(obj);
@@ -30,6 +36,21 @@ namespace TaskListDemo.Controllers
                 return RedirectToAction("Index");
             }
             return View();
+        }
+
+        public IActionResult Edit(int? id)
+        {
+            if (id == null || id ==0)
+            {
+                return NotFound();
+            }
+
+            Role? roleFromDb = _db.Roles.Find(id);
+            if (roleFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(roleFromDb);
         }
     }
 }

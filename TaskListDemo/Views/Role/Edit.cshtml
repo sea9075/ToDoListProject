@@ -3,7 +3,7 @@
 <form method="post">
     <div class="border p-3 mt-4">
         <div class="row pb-2">
-            <h2 class="text-primary">新增角色</h2>
+            <h2 class="text-primary">角色編輯</h2>
             <hr />
         </div>
         <div class="mb-3 row p-1">
@@ -17,11 +17,11 @@
             <span asp-validation-for="RoleName" class="text-danger"></span>
         </div>
         <div class="row">
-            <div class="col-6 col-md-3">
-                <button type="submit" class="btn btn-primary form-control">新增</button>
+            <div class="col-6 com-md-3">
+                <button type="submit" class="btn btn-primary form-control">更新</button>
             </div>
             <div class="col-6 col-md-3">
-                <a asp-controller="Category" asp-action="Index" class="btn btn-secondary border form-control">
+                <a asp-controller="Role" asp-action="Index" class="btn btn-secondary border form-control">
                     返回
                 </a>
             </div>

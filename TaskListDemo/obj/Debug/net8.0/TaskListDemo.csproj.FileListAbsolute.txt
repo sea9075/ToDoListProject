@@ -164,3 +164,4 @@ C:\Users\user\Desktop\UCH\TaskListDemo\TaskListDemo\obj\Debug\net8.0\refint\Task
 C:\Users\user\Desktop\UCH\TaskListDemo\TaskListDemo\obj\Debug\net8.0\TaskListDemo.pdb
 C:\Users\user\Desktop\UCH\TaskListDemo\TaskListDemo\obj\Debug\net8.0\TaskListDemo.genruntimeconfig.cache
 C:\Users\user\Desktop\UCH\TaskListDemo\TaskListDemo\obj\Debug\net8.0\ref\TaskListDemo.dll
+C:\Users\user\Desktop\UCH\TaskListDemo\TaskListDemo\obj\Debug\net8.0\TaskListDemo.sourcelink.json
