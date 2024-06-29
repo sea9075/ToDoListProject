@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\bin\Debug\net8.0\TaskListDemo.Utility.deps.json
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\bin\Debug\net8.0\TaskListDemo.Utility.dll
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\bin\Debug\net8.0\TaskListDemo.Utility.pdb
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.AssemblyInfo.cs
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.sourcelink.json
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.dll
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\refint\TaskListDemo.Utility.dll
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.pdb
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\ref\TaskListDemo.Utility.dll

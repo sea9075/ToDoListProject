@@ -27,7 +27,16 @@
     - CreateTime   
     - CompleteTime   
     - ConfirmTime   
+4. 參考資料   
+    - ChatGPT   
+    - [Bootswatch](https://bootswatch.com/)    
+    - [Toastr](https://codeseven.github.io/toastr/)    
    
 ## 20240628 更新   
 1. 新增 Role 角色資料庫   
 2. 新增 RoleContraller 的 CRUD   
+3. 新增 TempData 和 Toastr   
+   
+## 20240630 更新   
+1. 建立 依賴注入   
+2. 變更 檔案結構   
