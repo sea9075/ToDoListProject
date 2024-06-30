@@ -14,19 +14,20 @@
     - UserName   
     - Password   
     - Email   
+    - Role   
 2. 角色資料庫(Role)   
     - RoleId   
     - RoleName   
-3. 需求單資料庫(Task List)   
-    - TaskId   
+    - DisplayNum   
+3. 任務單資料庫(JobList)   
+    - JobId   
     - Title   
     - Description   
-    - CreateBy   
-    - AssignedTo   
+    - Assigned\_to   
     - Status   
-    - CreateTime   
-    - CompleteTime   
-    - ConfirmTime   
+    - Created\_at   
+    - Complete\_at   
+    - Confirmed\_at   
 4. 參考資料   
     - ChatGPT   
     - [Bootswatch](https://bootswatch.com/)    
@@ -40,3 +41,7 @@
 ## 20240630 更新   
 1. 建立 依賴注入   
 2. 變更 檔案結構   
+   
+## 20240701 更新   
+1. 建立 JobList Model   
+2. 建立 JobList CRUD   

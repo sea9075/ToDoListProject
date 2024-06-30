@@ -12,10 +12,12 @@ namespace TaskListDemo.DataAccess.Repository
     {
         private ApplicationDbContext _db;
         public IRoleRepository Role {  get; private set; }
+        public IJobListRepository JobList { get; private set; }
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Role = new RoleRepository(_db);
+            JobList = new JobListRepository(_db);
         }
 
         public void Save()

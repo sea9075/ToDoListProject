@@ -1,0 +1,65 @@
+﻿@model List<JobList>
+
+<div class="container">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary">需求清單</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="JobList" asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i>新增需求單
+            </a>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>標題</th>
+            <th>描述</th>
+            <th>狀態</th>
+            <th>建立時間</th>
+            <th>完成時間</th>
+            <th>確認時間</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model.OrderBy(u => u.JobId))
+        {
+            <tr>
+                <td>@obj.Title</td>
+                <td>@obj.Description</td>
+                <td>@obj.Status</td>
+                <td>@obj.Created_at.ToString("yyyy-MM-dd hh:mm")</td>
+                @if(obj.Completed_at != null)
+                {
+                    <td>@obj.Completed_at</td>
+                }
+                else
+                {
+                    <td></td>
+                }
+                @if(obj.Confirmed_at != null)
+                {
+                    <td>@obj.Confirmed_at</td>
+                }
+                else
+                {
+                    <td></td>
+                }
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="JobList" asp-action="Edit" asp-route-id="@obj.JobId" class="btn btn-primary mx-2">
+                            <i class="bi bi-pencil-square"></i>編輯
+                        </a>
+                        <a asp-controller="JobList" asp-action="Delete" asp-route-id="@obj.JobId" class="btn btn-danger mx-2">
+                            <i class="bi bi-trash-fill"></i>刪除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

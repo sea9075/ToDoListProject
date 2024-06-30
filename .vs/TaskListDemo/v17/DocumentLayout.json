@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\TodoListProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|c:\\users\\user\\desktop\\todolistproject\\tasklistdemo\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|solutionrelative:tasklistdemo\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|c:\\users\\user\\desktop\\todolistproject\\tasklistdemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|solutionrelative:tasklistdemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{45CB19BA-8AD5-4B73-92B7-A51FDAB32FDB}|TaskListDemo.Models\\TaskListDemo.Models.csproj|c:\\users\\user\\desktop\\todolistproject\\tasklistdemo.models\\joblist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45CB19BA-8AD5-4B73-92B7-A51FDAB32FDB}|TaskListDemo.Models\\TaskListDemo.Models.csproj|solutionrelative:tasklistdemo.models\\joblist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "TaskListDemo\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "TaskListDemo\\Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-29T16:53:52.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "TaskListDemo\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "TaskListDemo\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T16:45:08.246Z",
+              "Title": "JobList.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo.Models\\JobList.cs",
+              "RelativeDocumentMoniker": "TaskListDemo.Models\\JobList.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo.Models\\JobList.cs",
+              "RelativeToolTip": "TaskListDemo.Models\\JobList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T15:26:11.076Z",
               "EditorCaption": ""
             }
           ]

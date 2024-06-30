@@ -1,0 +1,57 @@
+﻿@model JobList
+
+<form method="post">
+    <input hidden asp-for="JobId" />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">編輯需求單</h2>
+            <hr />
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="Title" class="p-0"></label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="Description" class="p-0"></label>
+            <input asp-for="Description" class="form-control" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="Status" class="p-0"></label>
+            <input asp-for="Status" class="form-control" />
+            <span asp-validation-for="Status" class="text-danger"></span>
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="Created_at" class="p-0"></label>
+            <input asp-for="Created_at" class="form-control" asp-format="{0:yyyy-MM-dd hh:mm}" readonly/>
+            <span asp-validation-for="Created_at" class="text-danger"></span>
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="Completed_at" class="p-0"></label>
+            <input asp-for="Completed_at" class="form-control"/>
+            <span asp-validation-for="Completed_at" class="text-danger"></span>
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="Confirmed_at" class="p-0"></label>
+            <input asp-for="Confirmed_at" class="form-control"/>
+            <span asp-validation-for="Confirmed_at" class="text-danger"></span>
+        </div>
+        <div class="row">
+            <div class="col-6 com-md-3">
+                <button type="submit" class="btn btn-primary form-control">更新</button>
+            </div>
+            <div class="col-6 col-md-3">
+                <a asp-controller="JobList" asp-action="Index" class="btn btn-secondary border form-control">
+                    返回
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

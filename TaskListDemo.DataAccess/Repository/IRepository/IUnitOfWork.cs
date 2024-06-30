@@ -9,6 +9,7 @@ namespace TaskListDemo.DataAccess.Repository.IRepository
     public interface IUnitOfWork
     {
         IRoleRepository Role { get; }
+        IJobListRepository JobList { get; }
         void Save();
     }
 }
