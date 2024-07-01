@@ -1,32 +1,25 @@
-﻿@model UserVM
+﻿@model User
 
 <form method="post">
     <div class="border p-3 mt-4">
         <div class="row pb-2">
-            <h2 class="text-primary">新增使用者</h2>
+            <h2 class="text-primary">新增角色</h2>
             <hr />
         </div>
         <div class="mb-3 row p-1">
-            <label asp-for="User.UserName" class="p-0"></label>
-            <input asp-for="User.UserName" class="form-control" />
-            <span asp-validation-for="User.UserName" class="text-danger"></span>
+            <label asp-for="UserName" class="p-0"></label>
+            <input asp-for="UserName" class="form-control" />
+            <span asp-validation-for="UserName" class="text-danger"></span>
         </div>
         <div class="mb-3 row p-1">
-            <label asp-for="User.Email" class="p-0"></label>
-            <input asp-for="User.Email" class="form-control me-sm-2" />
-            <span asp-validation-for="User.Email" class="text-danger"></span>
+            <label asp-for="Email" class="p-0"></label>
+            <input asp-for="Email" class="form-control me-sm-2" />
+            <span asp-validation-for="Email" class="text-danger"></span>
         </div>
         <div class="mb-3 row p-1">
-            <label asp-for="User.Password" class="p-0"></label>
-            <input asp-for="User.Password" class="form-control me-sm-2" type="password"/>
-            <span asp-validation-for="User.Password" class="text-danger"></span>
-        </div>
-        <div class="mb-3 row p-1">
-            <label asp-for="User.RoleId" class="p-0"></label>
-            <select asp-for="User.RoleId" asp-items="@Model.RoleList" class="form-select">
-                <option disabled selected>權限選擇</option>
-            </select>
-            <span asp-validation-for="User.RoleId" class="text-danger"></span>
+            <label asp-for="Password" class="p-0"></label>
+            <input asp-for="Password" class="form-control me-sm-2" type="password"/>
+            <span asp-validation-for="Password" class="text-danger"></span>
         </div>
         <div class="row">
             <div class="col-6 col-md-3">

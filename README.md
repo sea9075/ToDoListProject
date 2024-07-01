@@ -45,4 +45,7 @@
 ## 20240701 更新   
 1. 建立 JobList Model   
 2. 建立 JobList CRUD   
-3. 建立 User CRUD   
+
+## 20240702 更新   
+1. 建立 User Model & CRUD     
+2. 將 Areas/User > Areas/Client

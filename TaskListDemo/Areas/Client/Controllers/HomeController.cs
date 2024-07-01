@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TaskListDemo.Models;
 
-namespace TaskListDemo.Areas.Clinet.Controllers
+namespace TaskListDemo.Areas.Client.Controllers
 {
     [Area("Client")]
     public class HomeController : Controller

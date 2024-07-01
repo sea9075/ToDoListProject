@@ -5,7 +5,6 @@ C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\Task
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.AssemblyInfo.cs
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.sourcelink.json
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.dll
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\refint\TaskListDemo.Utility.dll
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.Utility\obj\Debug\net8.0\TaskListDemo.Utility.pdb

@@ -3,7 +3,6 @@ C:\Users\user\Desktop\TodoListProject\TaskListDemo.DataAccess\obj\Debug\net8.0\T
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.DataAccess\obj\Debug\net8.0\TaskListDemo.DataAccess.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.DataAccess\obj\Debug\net8.0\TaskListDemo.DataAccess.AssemblyInfo.cs
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.DataAccess\obj\Debug\net8.0\TaskListDemo.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\TodoListProject\TaskListDemo.DataAccess\obj\Debug\net8.0\TaskListDemo.DataAccess.sourcelink.json
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.DataAccess\bin\Debug\net8.0\TaskListDemo.DataAccess.deps.json
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.DataAccess\bin\Debug\net8.0\TaskListDemo.DataAccess.runtimeconfig.json
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.DataAccess\bin\Debug\net8.0\TaskListDemo.DataAccess.dll

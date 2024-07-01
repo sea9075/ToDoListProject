@@ -315,7 +315,6 @@ C:\Users\user\Desktop\TodoListProject\TaskListDemo\obj\Debug\net8.0\TaskListDemo
 C:\Users\user\Desktop\TodoListProject\TaskListDemo\obj\Debug\net8.0\TaskListDemo.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\Desktop\TodoListProject\TaskListDemo\obj\Debug\net8.0\TaskListDemo.RazorAssemblyInfo.cache
 C:\Users\user\Desktop\TodoListProject\TaskListDemo\obj\Debug\net8.0\TaskListDemo.RazorAssemblyInfo.cs
-C:\Users\user\Desktop\TodoListProject\TaskListDemo\obj\Debug\net8.0\TaskListDemo.sourcelink.json
 C:\Users\user\Desktop\TodoListProject\TaskListDemo\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\user\Desktop\TodoListProject\TaskListDemo\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\user\Desktop\TodoListProject\TaskListDemo\obj\Debug\net8.0\staticwebassets\msbuild.TaskListDemo.Microsoft.AspNetCore.StaticWebAssets.props
@@ -455,7 +454,3 @@ C:\Users\user\Desktop\TodoListProject\TaskListDemo\bin\Debug\net8.0\ru\Microsoft
 C:\Users\user\Desktop\TodoListProject\TaskListDemo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\user\Desktop\TodoListProject\TaskListDemo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\user\Desktop\TodoListProject\TaskListDemo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\user\Desktop\TodoListProject\TaskListDemo\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\user\Desktop\TodoListProject\TaskListDemo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
-C:\Users\user\Desktop\TodoListProject\TaskListDemo\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\user\Desktop\TodoListProject\TaskListDemo\obj\Debug\net8.0\TaskListDemo.MvcApplicationPartsAssemblyInfo.cs

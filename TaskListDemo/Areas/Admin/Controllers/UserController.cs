@@ -3,7 +3,6 @@ using TaskListDemo.DataAccess.Data;
 using TaskListDemo.DataAccess.Repository;
 using TaskListDemo.DataAccess.Repository.IRepository;
 using TaskListDemo.Models;
-using TaskListDemo.Models.ViewModels;
 
 namespace TaskListDemo.Areas.Admin.Controllers
 {
@@ -17,30 +16,21 @@ namespace TaskListDemo.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
-            List<User> objRoleList = _unitOfWork.User.GetAll().ToList();
-            return View(objRoleList);
+            List<User> objUserList = _unitOfWork.User.GetAll().ToList();
+            return View(objUserList);
         }
         public IActionResult Create()
         {
-            UserVM userVm = new()
-            {
-                RoleList = _unitOfWork.Role.GetAll().Select(u => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
-                {
-                    Text = u.RoleName,
-                    Value = u.Id.ToString()
-                }),
-                User = new User()
-            };
-            return View(userVm);
+            return View();
         }
         [HttpPost]
-        public IActionResult Create(UserVM obj)
+        public IActionResult Create(User obj)
         {
             if (ModelState.IsValid)
             {
-                _unitOfWork.User.Add(obj.User);
+                _unitOfWork.User.Add(obj);
                 _unitOfWork.Save();
-                TempData["success"] = "角色新增成功";
+                TempData["success"] = "使用者新增成功";
                 return RedirectToAction("Index");
             }
             return View();
@@ -69,7 +59,7 @@ namespace TaskListDemo.Areas.Admin.Controllers
             {
                 _unitOfWork.User.Update(obj);
                 _unitOfWork.Save();
-                TempData["success"] = "角色修改成功";
+                TempData["success"] = "使用者修改成功";
                 return RedirectToAction("Index");
             }
 
@@ -102,7 +92,7 @@ namespace TaskListDemo.Areas.Admin.Controllers
 
             _unitOfWork.User.Remove(obj);
             _unitOfWork.Save();
-            TempData["success"] = "角色刪除成功";
+            TempData["success"] = "使用者刪除成功";
             return RedirectToAction("Index");
         }
     }
