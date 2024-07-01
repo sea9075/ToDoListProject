@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TaskListDemo.Models;
 
-namespace TaskListDemo.Areas.User.Controllers
+namespace TaskListDemo.Areas.Clinet.Controllers
 {
-    [Area("User")]
+    [Area("Client")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

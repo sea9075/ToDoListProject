@@ -10,3 +10,4 @@ C:\Users\user\Desktop\TodoListProject\TaskListDemo.Models\obj\Debug\net8.0\TaskL
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.Models\obj\Debug\net8.0\refint\TaskListDemo.Models.dll
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.Models\obj\Debug\net8.0\TaskListDemo.Models.pdb
 C:\Users\user\Desktop\TodoListProject\TaskListDemo.Models\obj\Debug\net8.0\ref\TaskListDemo.Models.dll
+C:\Users\user\Desktop\TodoListProject\TaskListDemo.Models\obj\Debug\net8.0\TaskListDemo.Models.csproj.AssemblyReference.cache

@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\TodoListProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45CB19BA-8AD5-4B73-92B7-A51FDAB32FDB}|TaskListDemo.Models\\TaskListDemo.Models.csproj|c:\\users\\user\\desktop\\todolistproject\\tasklistdemo.models\\joblist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45CB19BA-8AD5-4B73-92B7-A51FDAB32FDB}|TaskListDemo.Models\\TaskListDemo.Models.csproj|solutionrelative:tasklistdemo.models\\joblist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|c:\\users\\user\\desktop\\todolistproject\\tasklistdemo\\areas\\admin\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|solutionrelative:tasklistdemo\\areas\\admin\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45CB19BA-8AD5-4B73-92B7-A51FDAB32FDB}|TaskListDemo.Models\\TaskListDemo.Models.csproj|c:\\users\\user\\desktop\\todolistproject\\tasklistdemo.models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45CB19BA-8AD5-4B73-92B7-A51FDAB32FDB}|TaskListDemo.Models\\TaskListDemo.Models.csproj|solutionrelative:tasklistdemo.models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|c:\\users\\user\\desktop\\todolistproject\\tasklistdemo\\areas\\admin\\views\\joblist\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|solutionrelative:tasklistdemo\\areas\\admin\\views\\joblist\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|c:\\users\\user\\desktop\\todolistproject\\tasklistdemo\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|solutionrelative:tasklistdemo\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45CB19BA-8AD5-4B73-92B7-A51FDAB32FDB}|TaskListDemo.Models\\TaskListDemo.Models.csproj|c:\\users\\user\\desktop\\todolistproject\\tasklistdemo.models\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45CB19BA-8AD5-4B73-92B7-A51FDAB32FDB}|TaskListDemo.Models\\TaskListDemo.Models.csproj|solutionrelative:tasklistdemo.models\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|c:\\users\\user\\desktop\\todolistproject\\tasklistdemo\\areas\\admin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B918DDB2-CE03-46BF-B95D-E967D475D822}|TaskListDemo\\TaskListDemo.csproj|solutionrelative:tasklistdemo\\areas\\admin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Areas\\Admin\\Views\\JobList\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TaskListDemo\\Areas\\Admin\\Views\\JobList\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Areas\\Admin\\Views\\JobList\\Edit.cshtml",
+              "RelativeToolTip": "TaskListDemo\\Areas\\Admin\\Views\\JobList\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T06:57:17.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JobList.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo.Models\\JobList.cs",
-              "RelativeDocumentMoniker": "TaskListDemo.Models\\JobList.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo.Models\\JobList.cs",
-              "RelativeToolTip": "TaskListDemo.Models\\JobList.cs",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TaskListDemo\\Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "TaskListDemo\\Areas\\Admin\\Views\\User\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T06:56:52.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo.Models\\User.cs",
+              "RelativeDocumentMoniker": "TaskListDemo.Models\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo.Models\\User.cs",
+              "RelativeToolTip": "TaskListDemo.Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:29:42.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo.Models\\ViewModels\\UserVM.cs",
+              "RelativeDocumentMoniker": "TaskListDemo.Models\\ViewModels\\UserVM.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo.Models\\ViewModels\\UserVM.cs",
+              "RelativeToolTip": "TaskListDemo.Models\\ViewModels\\UserVM.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:26:11.076Z",
+              "WhenOpened": "2024-07-01T06:25:58.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TaskListDemo\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TaskListDemo\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwC4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:07:34.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Areas\\Admin\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "TaskListDemo\\Areas\\Admin\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TodoListProject\\TaskListDemo\\Areas\\Admin\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "TaskListDemo\\Areas\\Admin\\Views\\User\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T05:55:16.347Z",
               "EditorCaption": ""
             }
           ]

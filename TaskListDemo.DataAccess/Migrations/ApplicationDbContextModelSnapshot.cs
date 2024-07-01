@@ -58,7 +58,7 @@ namespace TaskListDemo.DataAccess.Migrations
                         new
                         {
                             JobId = 1,
-                            Created_at = new DateTime(2024, 6, 30, 15, 27, 34, 711, DateTimeKind.Local).AddTicks(9315),
+                            Created_at = new DateTime(2024, 7, 1, 11, 12, 11, 415, DateTimeKind.Local).AddTicks(8951),
                             Description = "剛才突然不能上網",
                             Status = 0,
                             Title = "無法上網"
@@ -66,7 +66,7 @@ namespace TaskListDemo.DataAccess.Migrations
                         new
                         {
                             JobId = 2,
-                            Created_at = new DateTime(2024, 6, 30, 15, 27, 34, 713, DateTimeKind.Local).AddTicks(5025),
+                            Created_at = new DateTime(2024, 7, 1, 11, 12, 11, 417, DateTimeKind.Local).AddTicks(2748),
                             Description = "剛剛突然關機，無法重開",
                             Status = 0,
                             Title = "無法開機"
@@ -104,14 +104,81 @@ namespace TaskListDemo.DataAccess.Migrations
                         {
                             Id = 2,
                             DisplayNum = 2,
-                            RoleName = "使用者"
+                            RoleName = "工程師"
                         },
                         new
                         {
                             Id = 3,
                             DisplayNum = 3,
-                            RoleName = "工程師"
+                            RoleName = "使用者"
                         });
+                });
+
+            modelBuilder.Entity("TaskListDemo.Models.User", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = 1,
+                            Email = "admin@tasklist.com",
+                            Password = "kkk123456",
+                            RoleId = 1,
+                            UserName = "Admin"
+                        },
+                        new
+                        {
+                            UserId = 2,
+                            Email = "engineer@tasklist.com",
+                            Password = "kkk123456",
+                            RoleId = 2,
+                            UserName = "Engineer"
+                        },
+                        new
+                        {
+                            UserId = 3,
+                            Email = "user@tasklist.com",
+                            Password = "kkk123456",
+                            RoleId = 3,
+                            UserName = "User"
+                        });
+                });
+
+            modelBuilder.Entity("TaskListDemo.Models.User", b =>
+                {
+                    b.HasOne("TaskListDemo.Models.Role", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
                 });
 #pragma warning restore 612, 618
         }

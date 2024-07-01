@@ -45,3 +45,4 @@
 ## 20240701 更新   
 1. 建立 JobList Model   
 2. 建立 JobList CRUD   
+3. 建立 User CRUD   

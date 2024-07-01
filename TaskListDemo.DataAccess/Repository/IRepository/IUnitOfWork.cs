@@ -10,6 +10,7 @@ namespace TaskListDemo.DataAccess.Repository.IRepository
     {
         IRoleRepository Role { get; }
         IJobListRepository JobList { get; }
+        IUserRepository User { get; }
         void Save();
     }
 }
